@@ -1,4 +1,4 @@
-# MLCert
+# Automated Checks for Certification Approach
 
 ## Prerequisites
 
