@@ -27,6 +27,12 @@ def run_deepchecks(dataset_path, model):
 
 # Main page function
 def main_page():
+    # st.set_page_config(
+    #     page_title=None,
+    #     page_icon=None,
+    #     layout="centered",
+    #     initial_sidebar_state="collapsed",
+    # )
     st.title("Model & Dataset Validation")
 
     uploaded_onnx = st.file_uploader("Upload your model (.onnx file)", type="onnx")
@@ -60,6 +66,7 @@ def main_page():
             st.success(
                 "Scores calculated! View the results in the 'Test Results' page."
             )
+
     else:
         st.warning("Please upload both the model (.onnx) and dataset (.zip) files.")
 
