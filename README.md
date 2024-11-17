@@ -10,10 +10,10 @@ Install the required dependencies:
 pip install streamlit deepchecks
 ```
 
-Run th3 command to download the military dataset:
+Run the command to download the military dataset:
 
 ```bash
-curl -L "https://universe.roboflow.com/ds/7woZrwVehy?key=ejNWnZzaC1" > roboflow.zip; unzip roboflow.zip; rm roboflow.zip
+curl -L "https://universe.roboflow.com/ds/O79Fya4DXb?key=rVXaAECSDB" > Military\ vehicles\ object\ detection.v16i.coco.zip
 ```
 
 ## How to Run
