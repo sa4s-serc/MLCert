@@ -182,10 +182,6 @@ def deepchecks_collate_fn(batch) -> BatchOutputFormat:
     labels = transform_labels_to_cxywh(batch[1])
     predictions = infer_on_images(batch[0], model)
 
-    # predictor, cfg = load_predictor('../nanodet.yml', '/home/vyakhya/Desktop/serc/nanodet_model/trained_nanodet/model_best/nanodet_model_best.pth')
-
-    # predictions =predictor.inference(batch[0])
-
     return BatchOutputFormat(images=images, labels=labels, predictions=predictions)
 
 
